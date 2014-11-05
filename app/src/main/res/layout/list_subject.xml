@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="6dp"
+    android:paddingLeft="6dp"
+    android:paddingTop="6dp"
+    android:paddingRight="6dp"
+    android:paddingBottom="6dp">
+
+    <ImageView
+        android:id="@+id/ivColorRectangle"
+        android:layout_width="10dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentBottom="false"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_marginTop="15dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop" />
+    <TextView
+        android:id="@+id/tvUC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:paddingTop="10dp"
+        android:text="@string/CU"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:paddingRight="10dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvUcNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tvUC"
+        android:paddingTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:paddingRight="10dp"
+        android:text="0" />
+
+
+    <TextView
+        android:id="@+id/tvSubject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="@string/Subject"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:paddingLeft="15dp" />
+
+    <TextView
+        android:id="@+id/tvProfessor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="false"
+        android:layout_below="@+id/tvSubject"
+        android:paddingTop="10dp"
+        android:text="@string/Professor"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="20dp"
+        android:textIsSelectable="false" />
+
+
+</RelativeLayout>

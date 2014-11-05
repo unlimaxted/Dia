@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="CreditUnits">Credit Units</string>
+    <string name="Bibliography">Bibliography</string>
+    <string name="CU">CU</string>
+    <string name="Subject">Subject</string>
+    <string name="Professor">Professor</string>
+    <string name="Email">Email</string>
+    <string name="Office">Office</string>
+    <string name="Number">Number</string>
+    <string name="ScheduleProfessorInfo">Select the days and office hours</string>
+    <string name="Monday">Monday</string>
+    <string name="Tuesday">Tuesday</string>
+    <string name="Wednesday">Wednesday</string>
+    <string name="Thursday">Thursday</string>
+    <string name="Friday">Friday</string>
+    <string name="Saturday">Saturday</string>
+    <string name="Sunday">Sunday</string>
+    <string name="StartTime">Start Time</string>
+    <string name="EndTime">End Time</string>
+    <string name="Professor_twoPoints">Professor:</string>
+    <string name="Email_twoPoints">Email:</string>
+    <string name="Office_twoPoints">Office:</string>
+    <string name="Number_twoPoints">Number</string>
+    <string name="Schedule_twoPoints">Schedule:</string>
+    <string name="NoProfessor">You have not added any professor. Do it now!</string>
+    <string name="Date">Date</string>
+    <string name="Hour">Hour</string>
+    <string name="Salon">Salon</string>
+    <string name="Percent">Percent</string>
+    <string name="PercentSimbol">%</string>
+    <string name="Description">Description</string>
+</resources>

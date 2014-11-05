@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">YoStudio</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_search_subject">SearchSubject</string>
+    <string name="title_activity_find_subject">FindSubject</string>
+    <string name="action_example">Example action</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- Navigation titles list -->
+    <string-array name="nav_options">
+        <item>Subjects</item>
+        <item>Homework</item>
+        <item>Calendar</item>
+        <item>Tests</item>
+        <item>Schedule</item>
+        <item>Setting</item>
+        <item>Share</item>
+    </string-array>
+
+    <!-- Navigation icon list -->
+    <array name="navigation_iconos">
+        <item>@drawable/ic_action_user</item>
+        <item>@drawable/ic_action_star</item>
+        <item>@drawable/ic_action_event</item>
+        <item>@drawable/ic_action_place</item>
+        <item>@drawable/ic_action_labels</item>
+        <item>@drawable/ic_action_settings</item>
+        <item>@drawable/ic_action_share</item>
+    </array>
+
+    <string-array name="color_array">
+        <item>Lime Green</item>
+        <item>Black</item>
+        <item>Blue</item>
+        <item>Brown</item>
+        <item>Fuchsia</item>
+        <item>Gray</item>
+        <item>Green</item>
+        <item>Light Blue</item>
+        <item>Light Red</item>
+        <item>Light Yellow</item>
+        <item>Orange</item>
+        <item>Red</item>
+        <item>Bright Turquoise</item>
+        <item>Violet</item>
+        <item>Yellow</item>
+    </string-array>
+
+    <!-- Colors -->
+    <string name="limegreen">Lime Green</string>
+    <string name="black">Black</string>
+    <string name="blue">Blue</string>
+    <string name="brown">Brown</string>
+    <string name="fuchsia">Fuchsia</string>
+    <string name="gray">Gray</string>
+    <string name="green">Green</string>
+    <string name="lightblue">Light Blue</string>
+    <string name="lightred">Light Red</string>
+    <string name="lightyellow">Light Yellow</string>
+    <string name="orange">Orange</string>
+    <string name="red">Red</string>
+    <string name="brightturquoise">Bright Turquoise</string>
+    <string name="violet">Violet</string>
+    <string name="yellow">Yellow</string>
+    <string name="white">White</string>
+
+    <!-- Navigation icon list -->
+    <array name="color_icons">
+        <item>@drawable/limegreen_icon</item>
+        <item>@drawable/black_icon</item>
+        <item>@drawable/blue_icon</item>
+        <item>@drawable/brown_icon</item>
+        <item>@drawable/fuchsia_icon</item>
+        <item>@drawable/gray_icon</item>
+        <item>@drawable/green_icon</item>
+        <item>@drawable/lightblue_icon</item>
+        <item>@drawable/lightred_icon</item>
+        <item>@drawable/lightyellow_icon</item>
+        <item>@drawable/orange_icon</item>
+        <item>@drawable/red_icon</item>
+        <item>@drawable/brightturquoise_icon</item>
+        <item>@drawable/violet_icon</item>
+        <item>@drawable/yellow_icon</item>
+    </array>
+
+    <!-- Subjects Strings -->
+    <string name="Subjects">Subjects</string>
+    <string name="CreditUnits">Credit Units</string>
+    <string name="Bibliography">Bibliography</string>
+    <string name="title_activity_add_subject">AddSubjectActivity</string>
+    <string name="CU">CU</string>
+    <string name="Subject">Subject</string>
+    <string name="Professor">Professor</string>
+    <string name="title_activity_subjects">SubjectsActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_test">TestActivity</string>
+
+    <!-- Test Strings -->
+    <string name="Test">Test</string>
+
+    <!-- Professor Strings -->
+    <string name="title_activity_add_professor">AddProfessorActivity</string>
+    <string name="Email">Email</string>
+    <string name="Office">Office</string>
+    <string name="Number">Number</string>
+    <string name="ScheduleProfessorInfo">Select the days and office hours</string>
+    <string name="Monday">Monday</string>
+    <string name="Tuesday">Tuesday</string>
+    <string name="Wednesday">Wednesday</string>
+    <string name="Thursday">Thursday</string>
+    <string name="Friday">Friday</string>
+    <string name="Saturday">Saturday</string>
+    <string name="Sunday">Sunday</string>
+    <string name="StartTime">Start Time</string>
+    <string name="EndTime">End Time</string>
+    <string name="title_activity_schedule_professor">ScheduleProfessorActivity</string>
+    <string name="title_activity_android_view_pager">AndroidViewPagerActivity</string>
+    <string name="Professor_twoPoints">Professor:</string>
+    <string name="Email_twoPoints">Email:</string>
+    <string name="Office_twoPoints">Office:</string>
+    <string name="Number_twoPoints">Number</string>
+    <string name="Schedule_twoPoints">Schedule:</string>
+    <string name="NoProfessor">You have not added any professor. Do it now!</string>
+    <string name="title_activity_subject_info">SubjectInfoActivity</string>
+    <string name="title_activity_add_test">AddTestActivity</string>
+    <string name="Date">Date</string>
+    <string name="Hour">Hour</string>
+    <string name="Salon">Salon</string>
+    <string name="Percent">Percent</string>
+    <string name="PercentSimbol">%</string>
+    <string name="Description">Description</string>
+
+</resources>

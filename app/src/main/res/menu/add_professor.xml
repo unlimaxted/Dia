@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.maxxindev.studia.Controller.Professor.AddProfessorActivity" >
+    <item
+        android:id="@+id/professor_add"
+        android:icon="@android:drawable/ic_menu_add"
+        android:showAsAction="always"
+        android:title="Add"/>
+</menu>

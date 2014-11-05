@@ -1,0 +1,86 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout"
+    android:baselineAligned="false"
+    android:weightSum="1"
+    android:paddingLeft="6dp"
+    android:paddingTop="6dp"
+    android:paddingRight="6dp"
+    android:paddingBottom="6dp"
+    android:padding="6dp">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="5dp"
+        android:id="@+id/tL"
+        android:clickable="true">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/tR3"
+            android:padding="7dp"></TableRow>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/eTSubjects"
+            android:editable="false"
+            android:autoText="false"
+            android:hint="@string/Subject"
+            android:layout_gravity="bottom"
+            android:inputType="textCapWords" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:id="@+id/tR1"
+            android:padding="7dp">
+
+        </TableRow>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/eTCreditUnits"
+            android:hint="@string/CreditUnits" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:id="@+id/tR4"
+            android:padding="7dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:id="@+id/eTBibliography"
+            android:inputType="textMultiLine|textCapSentences"
+            android:hint="@string/Bibliography"
+            android:autoText="false"
+            android:gravity="top" />
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="7dp"
+            android:layout_margin="5dp"
+            android:id="@+id/tR5"></TableRow>
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sprColors" />
+
+    </TableLayout>
+
+</LinearLayout>

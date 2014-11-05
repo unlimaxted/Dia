@@ -1,0 +1,157 @@
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="6dp">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:id="@+id/tableLayout"
+            android:clickable="false" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Subject"
+                android:id="@+id/tvSubject"
+                android:textSize="20dp"
+                android:visibility="gone" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sprSubjects"
+                android:visibility="gone" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/black"
+                android:focusableInTouchMode="false"
+                android:id="@+id/vSeparator"
+                android:layout_marginTop="5dp"
+                android:visibility="gone" />
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:id="@+id/tR0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Professor"
+                android:id="@+id/tvProfessor"
+                android:textSize="20dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/eTProfessor"
+                android:editable="false"
+                android:autoText="false"
+                android:hint="@string/Professor"
+                android:layout_gravity="bottom"
+                android:inputType="textCapWords" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:id="@+id/tR1"
+                android:padding="7dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Email"
+                android:id="@+id/tvEmail"
+                android:textSize="20dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:id="@+id/eTEmail"
+                android:hint="@string/Email" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:id="@+id/tR2"
+                android:padding="7dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Office"
+                android:id="@+id/tvOffive"
+                android:textSize="20dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/eTOffice"
+                android:hint="@string/Office"
+                android:autoText="false"
+                android:gravity="top"
+                android:inputType="textCapSentences" />
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="7dp"
+                android:layout_margin="5dp"
+                android:id="@+id/tR3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Number"
+                android:id="@+id/tvNumber"
+                android:textSize="20dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/eTNumber"
+                android:hint="@string/Number"
+                android:autoText="false"
+                android:gravity="top"
+                android:inputType="number" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/black"
+                android:focusableInTouchMode="false"
+                android:id="@+id/vSeparator2"
+                android:layout_marginTop="5dp" />
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:padding="7dp"
+                android:id="@+id/tR5" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ScheduleProfessorInfo"
+                android:id="@+id/btScheduleProfessorInfo" />
+
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.maxxindev.studia" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Controller.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Controller.Subjects.SearchSubject"
+            android:label="@string/title_activity_search_subject" >
+        </activity>
+        <activity
+            android:name=".Controller.Subjects.AddSubjectsActivity"
+            android:label="@string/Subjects" >
+            android:parentActivityName="com.MaXXinLabs.yostudio.Controller.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.maxxindev.studia.Controller.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Controller.Professor.AddProfessorActivity"
+            android:label="@string/title_activity_add_professor"
+            android:parentActivityName=".Controller.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.maxxindev.studia.Controller.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Controller.Professor.ScheduleProfessorActivity"
+            android:label="@string/title_activity_schedule_professor" >
+        </activity>
+        <activity
+            android:name=".Controller.Subjects.SubjectInfoActivity"
+            android:label="@string/title_activity_subject_info" >
+        </activity>
+        <activity
+            android:name=".Controller.Tests.AddTestActivity"
+            android:parentActivityName=".Controller.MainActivity" >
+            android:label="@string/title_activity_add_test" >
+        </activity>
+    </application>
+
+</manifest>
